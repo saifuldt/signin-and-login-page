@@ -12,7 +12,7 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="register.html">Register</a></li>
-            <li><a href="login.html">Login</a></li>
+            <li><a href="login.html" id="blue">Login</a></li>
         </ul>
 
 
@@ -30,12 +30,18 @@
             <input type="email" name="Email" placeholder="Your Email"><br>
             <label for="phnoe">Phone Number:</label>
             <input type="number" name="phone" placeholder="Your phone Number"><br>
-            <button class="submit">SignUp</button>
+            
         </form>
+        <button class="submit" id="red">SignUp</button>
     </div>
     
    </div>
 </div>
-<script src="script.js"></script>
+<script>
+    document.getElementById('red').addEventListener('click', function() {
+        alert("Wellcome to Vhua Recharge")
+      document.getElementById('blue').click();
+    });
+    </script>
 </body>
 </html>

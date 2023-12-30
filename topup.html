@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>javaScript Project</title>
+</head>
+<body>
+    <div class="content">
+        <div class="rechargeMid">
+            <div><p>Top-Up</p></div><br><br>
+            <div class="topupDetails1">
+               <p>Operator</p>
+               <p>Mobile Number</p>
+               <p>Amount</p>
+            </div>
+            <div class="topupDetails">
+
+               <div class="topupDetails">
+                <select name="Operator" id="operator">
+                    <option value="Operator">GP</option>
+                    <option value="Operator">Skitto</option>
+                    <option value="Operator">Banglalink</option>
+                    <option value="Operator">Airtel</option>
+                    <option value="Operator">Robi</option>
+                    <option value="Operator">Teletalk</option>
+                   </select>
+                   <input class="phnNo" type="number" placeholder="Mobile Number">
+                   <input class="tk" type="number" placeholder="Tk">
+               </div>
+            </div>
+            <div class="topupbtn">
+                <br>
+                <button><a href="/topup.html">Reset</a></button>
+                <button id="recharge">Recharge</button>
+               </div>
+               <div class="topupbtn1">
+                <br>
+                <br>
+                <button><a href="/recharge.html">Back</a></button>
+               </div>
+        </div>
+    </div>
+    <script>
+            document.getElementById('recharge').addEventListener('click', function() {
+        alert("Recharge Successfully");
+    });
+    </script>
+</body>
+</html>

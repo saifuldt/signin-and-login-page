@@ -39,10 +39,10 @@ const login = document.querySelector("#loginbtn");
 const regPage = document.querySelector("#regpage");
 const signup = document.querySelector("#signupbtn")
 
-
 login.addEventListener("click", function() {
     loginPage.click();
   });
 signup.addEventListener("click", function() {
     regPage.click();
 });
+
